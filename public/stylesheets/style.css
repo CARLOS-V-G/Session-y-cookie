@@ -1,0 +1,62 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.Flex-views{display: flex;flex-direction: column;align-items: center;color: #FFF;}
+
+.container-index{
+  box-shadow: 0px 1px 2.2px rgba(0, 0, 0, 0.014),
+  0px 2.3px 5.3px rgba(0, 0, 0, 0.032),
+  0px 4.4px 10px rgba(0, 0, 0, 0.051),
+  0px 7.8px 17.9px rgba(0, 0, 0, 0.072),
+  0px 14.6px 33.4px rgba(0, 0, 0, 0.098),
+  0px 35px 80px rgba(0, 0, 0, 0.14);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-index h2{display: flex;justify-content: center;margin-top: 15px;}
+
+.container-index div{
+  margin: 10px 50px 10px 50px;
+}
+
+/* .container-index select{
+  width: 85%;margin: 0px 0px 0px 50px;
+}
+ */
+.div__selector--color{
+
+}
+
+.container-index button{margin: 14px;}
+
+/* .flex-delete{
+  margin: 20px;
+} */
+
+.flex-delete{
+  width: 14%;
+  position: relative;
+  top: 2px;
+  /* left: 9rem; */
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+}
+
+.flex-delete a{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  margin: 8px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 17px;
+}
